@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{756A70CC-9150-4061-8BAE-53FCB18F2C29}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Lottery" ID="{756A70CC-9150-4061-8BAE-53FCB18F2C29}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="LotterySwitch" ID="{046DCA56-635A-4B5B-BB92-D13E74592381}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="dB_12" ID="{C5159CA2-3E0F-4F79-AEAD-2DB0370E3150}"/>
+						<Switch Name="dB_18" ID="{5ABFAEB8-3A77-415C-A18E-E08817D0B2AA}"/>
+						<Switch Name="dB_24" ID="{CA4E24EF-2887-4EEE-B8DB-1B5C7D539E8D}"/>
+						<Switch Name="dB_30" ID="{FBC13B2D-4CF4-423D-A7A5-6B14400E6CEE}"/>
+						<Switch Name="dB_36" ID="{0733810B-1A08-46B3-833F-F74263EEAF99}"/>
+						<Switch Name="dB_42" ID="{84C7A2BA-DB19-4813-8413-78B6687EC7FF}"/>
+						<Switch Name="dB_48" ID="{EE04361D-5B9E-407B-8A58-3C411A2680FE}"/>
+						<Switch Name="dB_06" ID="{CE0B18A8-5413-4F84-B651-0817784A7297}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="WwiseMeter" ID="{E1EB5936-0D17-4D65-90B3-E93D33B84949}"/>
+						<Curve Name="" ID="{FD95B393-071B-4D20-9A7D-60CAF7B9961B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-48</XPos>
+									<YPos>7</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-42</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-36</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-30</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-24</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-18</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-14.75676</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>-6</XPos>
+									<YPos>8</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SpeedSwitch" ID="{C2F8B7DF-17BC-4C24-B65B-B123BB8B0D75}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Speed_Active" ID="{D9F8B7EE-6EFE-41F0-B38D-3BB4E4706004}"/>
+						<Switch Name="Speed_Stop" ID="{254A5B92-2F0E-436C-9721-B1B2F9B75DEE}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Speed" ID="{C0516B90-E313-45CC-8143-8107A4DAD484}"/>
+						<Curve Name="" ID="{5CF40D74-90C1-4181-A4B9-169479197299}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.7</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>61</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

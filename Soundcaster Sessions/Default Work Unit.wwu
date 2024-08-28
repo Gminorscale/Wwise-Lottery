@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E8DF1D6-B47E-4172-8CDE-79C53C932847}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0E8DF1D6-B47E-4172-8CDE-79C53C932847}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Lottery" ID="{B5EC0292-320C-41B4-900F-E34D456E43D3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Lottery_Start" ID="{71B59C59-ED46-4689-ABAC-5B36F9891155}" WorkUnitID="{6464FDBE-FA1E-42FE-8D7F-240FF84535A9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lottery_Restart" ID="{90700724-25FE-4798-8070-A7BA1B43A00F}" WorkUnitID="{6464FDBE-FA1E-42FE-8D7F-240FF84535A9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{C0516B90-E313-45CC-8143-8107A4DAD484}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WwiseMeter" ID="{E1EB5936-0D17-4D65-90B3-E93D33B84949}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Member_29" ID="{ACBE500F-6F09-4915-9247-B9BAF86D19D9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="dB_06" ID="{CE0B18A8-5413-4F84-B651-0817784A7297}"/>
+						<CurrentSwitchRef Name="Speed_Active" ID="{D9F8B7EE-6EFE-41F0-B38D-3BB4E4706004}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

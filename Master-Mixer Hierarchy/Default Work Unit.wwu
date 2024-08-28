@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{219A971B-E6F4-44EC-8DDD-8A6855B16730}" WorkUnitID="{A5C5458D-A143-45E2-8F3B-F3D3ED84E462}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AudioOutput" ID="{7B44A95D-A8A0-4028-9474-0B9296B16116}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="WwiseMeterAUX" ID="{8F2D0B76-D860-455F-A5F0-801CFFDB61ED}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Gain_(Custom)" ID="{D7D81555-A95A-4B85-B312-C6C47355C6F1}" ShortID="547963719" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<PropertyList>
+												<Property Name="FullBandGain" Type="Real32" Value="24"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise_Meter_(Custom)" ID="{FD833BEA-C1C4-4F88-B9BA-22DBAB360A6B}" ShortID="279437847" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="ApplyDownstreamVolume" Type="bool" Value="True"/>
+												<Property Name="Min" Type="Real32" Value="-96.3"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="WwiseMeter" ID="{E1EB5936-0D17-4D65-90B3-E93D33B84949}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="New_Wwise_Gain" ID="{30C0F7C7-1AC5-4BD6-9744-052565518E4C}" WorkUnitID="{8F353909-6579-4346-A6E2-66C90C759076}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

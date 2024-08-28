@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A2E8D2FC-DC68-4CF2-8CC4-0918BC66511B}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="LotteryState" ID="{A2E8D2FC-DC68-4CF2-8CC4-0918BC66511B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MemberNumber" ID="{30892580-9321-428B-A904-C6094B71F270}">
+					<ChildrenList>
+						<State Name="None" ID="{1AC0B533-FCC8-4AFC-973A-BEB802A6B5CF}"/>
+						<State Name="Member_01" ID="{1928825F-32DE-420C-A233-E8C6071038A3}"/>
+						<State Name="Member_02" ID="{A4DC9596-D211-47C0-8FC9-C9BAC5EE4EB3}"/>
+						<State Name="Member_03" ID="{D606968A-A10E-4BCA-8431-92867E3CBD19}"/>
+						<State Name="Member_04" ID="{B9AF7376-C4FF-47D1-8325-1732580E0654}"/>
+						<State Name="Member_05" ID="{B3059461-07AD-48F0-B9B2-2746568750CD}"/>
+						<State Name="Member_06" ID="{353EF090-217B-4CF3-A987-911B6BDCAA2C}"/>
+						<State Name="Member_07" ID="{9DE2CCE7-D935-4D60-A2B3-A22174896E70}"/>
+						<State Name="Member_08" ID="{D663F5C1-4BDB-4C3B-B09D-CA8AB24EA9FB}"/>
+						<State Name="Member_09" ID="{850D6657-2E48-4A5D-9F9D-9DF803EA49EC}"/>
+						<State Name="Member_10" ID="{CC1BDF72-186A-4123-89E0-7EDFF25929B1}"/>
+						<State Name="Member_11" ID="{89426B63-4FA9-48D9-9753-0F93E7323263}"/>
+						<State Name="Member_12" ID="{A1390789-5348-4C03-8A98-3477EC48D1EC}"/>
+						<State Name="Member_13" ID="{FC382275-9D73-4AE2-A0D7-04F9CF5A3348}"/>
+						<State Name="Member_14" ID="{F149E10D-19D2-4262-B64C-B91077F6EFAB}"/>
+						<State Name="Member_15" ID="{81681E32-F88B-4CFE-BD78-7437045D0462}"/>
+						<State Name="Member_16" ID="{0ABBC959-1BD8-482C-AA52-5CDF7E3C6DE8}"/>
+						<State Name="Member_17" ID="{C28C5E00-C167-459D-8DC7-90BEF25A33B9}"/>
+						<State Name="Member_18" ID="{A062E0C3-7B93-4799-90CA-854617A1FE9E}"/>
+						<State Name="Member_19" ID="{4B9989DD-78EC-41C2-B134-BBB4D8375B3C}"/>
+						<State Name="Member_20" ID="{6F8B74BA-782B-41CA-8046-032FFBA942ED}"/>
+						<State Name="Member_21" ID="{6D4E7CAD-DF26-4A13-863C-5141C023ABE6}"/>
+						<State Name="Member_22" ID="{AFAE8FA8-3B37-4FDD-A17E-EC995CAAB362}"/>
+						<State Name="Member_23" ID="{359BB5BA-0AD3-473C-A469-298DCDC33697}"/>
+						<State Name="Member_24" ID="{93562A1B-A193-4BC1-8561-5EEB72D746D4}"/>
+						<State Name="Member_25" ID="{39C33FF0-6497-4FA2-919B-0C95F25B16AA}"/>
+						<State Name="Member_26" ID="{A2634C0D-C8B7-4F20-973E-5640F80FE80B}"/>
+						<State Name="Member_27" ID="{CD488462-1DAD-49FD-B179-2CA68F7002DD}"/>
+						<State Name="Member_28" ID="{2B4DBF45-9930-427C-B0CC-F34D7CBDE263}"/>
+						<State Name="Member_29" ID="{ACBE500F-6F09-4915-9247-B9BAF86D19D9}"/>
+						<State Name="Member_30" ID="{8D8BB30A-B769-45A6-8E2E-6FC883B231A3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{661B9873-C497-495B-8FEC-E280D3794798}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Lottery" ID="{661B9873-C497-495B-8FEC-E280D3794798}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SpeedEngine" ID="{3AB16165-C0F3-46C8-BC3C-22ECCA6C3C21}" ShortID="274170025">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5589278B-1759-4F21-801F-96C75CB2354E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Click" ID="{5E6D62AA-6C3C-4BC1-AE75-F2D1BBEF49AF}" ShortID="976590323">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A3F13972-C3D6-4633-8978-8E50D13C3B8A}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+									<RTPCList>
+										<RTPC Name="" ID="{D17B1B14-D7B8-4B13-BC3A-375F424984C3}" ShortID="927343915">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Speed" ID="{C0516B90-E313-45CC-8143-8107A4DAD484}" WorkUnitID="{9907D00A-E59E-4124-AA39-970E05188B09}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{941BD7BA-B6FB-4C76-ACCB-DB3DC7DCE1C5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.5</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>15.79755</XPos>
+														<YPos>0.06381</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5589278B-1759-4F21-801F-96C75CB2354E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="WwiseMeterAUX" ID="{8F2D0B76-D860-455F-A5F0-801CFFDB61ED}" WorkUnitID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One" ID="{DB69A2C9-E542-4695-A732-980F5B5DD038}" ShortID="738724868" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="BaseFrequency" Type="Real32" Value="440">
+											<RTPCList>
+												<RTPC Name="" ID="{036E2344-2DEF-41D7-AB69-A3D3E43FC432}" ShortID="443450275">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Speed" ID="{C0516B90-E313-45CC-8143-8107A4DAD484}" WorkUnitID="{9907D00A-E59E-4124-AA39-970E05188B09}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{195B73A9-FA98-4CE3-894A-42B110806008}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="5"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>120</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>480</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OutputLevel" Type="Real32" Value="12">
+											<RTPCList>
+												<RTPC Name="" ID="{6AA4C45B-461F-4638-B019-5E5C361F8800}" ShortID="415982031">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="ADSR" ID="{CBB3FDDA-C1D3-4543-BBE5-0F8ECCFEF034}" WorkUnitID="{5F72DCCB-64A0-4EE0-A8D6-5DAC0FA2B81A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2FFC535C-60CA-47DF-B904-C90BC83E3C05}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-120</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-0.11123</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One" ID="{DB69A2C9-E542-4695-A732-980F5B5DD038}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Click" ID="{5E6D62AA-6C3C-4BC1-AE75-F2D1BBEF49AF}"/>
+						<ItemRef Name="Click" ID="{5E6D62AA-6C3C-4BC1-AE75-F2D1BBEF49AF}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
