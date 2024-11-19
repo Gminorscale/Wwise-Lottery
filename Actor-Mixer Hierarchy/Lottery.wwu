@@ -160,6 +160,52 @@
 						<ItemRef Name="Click" ID="{5E6D62AA-6C3C-4BC1-AE75-F2D1BBEF49AF}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<BlendContainer Name="VoiceAnnouncement" ID="{FE3D08CB-EE4C-4248-A039-763F1E4E315E}" ShortID="271626459">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>2.75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5589278B-1759-4F21-801F-96C75CB2354E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Soundly Voice Designer, Sonia 43" ID="{422FC501-CBE0-4D8A-9669-DEBBD8EE0B4C}" ShortID="603615284">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5589278B-1759-4F21-801F-96C75CB2354E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5ED80EB-7763-4F2D-ACFB-1681106AB807}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Soundly Voice Designer, Sonia 43" ID="{08691073-7492-497F-9088-BBBCC964DA51}">
+									<Language>SFX</Language>
+									<AudioFile>Soundly Voice Designer, Sonia 43.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="74071981"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Soundly Voice Designer, Sonia 43" ID="{08691073-7492-497F-9088-BBBCC964DA51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

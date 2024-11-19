@@ -2,29 +2,32 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Virtual Acoustics\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Triggers\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Switches\Lottery.wwu" DateLow="1724838588" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Switches\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\States\LotteryState.wwu" DateLow="1724841392" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\States\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1727101116" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\SoundBanks\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Queries\Factory Queries.wwu" DateLow="1613402668" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Queries\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Presets\Factory Spatial Audio.wwu" DateLow="1613402668" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Presets\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Modulators\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Modulators\Default Work Unit.wwu" DateLow="1724832994" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Mixing Sessions\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Game Parameters\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\GADEN-Loittery.wproj" DateLow="1723725620" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\GADEN-Loittery.danne.wsettings" DateLow="1723725622" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Events\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1724838588" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1727101116" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Game Parameters\Default Work Unit.wwu" DateLow="1724832994" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\GADEN-Loittery.wproj" DateLow="1724835616" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\GADEN-Loittery.danne.wsettings" DateLow="1727117876" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Events\Default Work Unit.wwu" DateLow="1727101000" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Effects\Factory Effects.wwu" DateLow="1613402668" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Effects\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Effects\Default Work Unit.wwu" DateLow="1724838588" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1613402668" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Conversion Settings\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Control Surface Sessions\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Audio Devices\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Attenuations\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Actor-Mixer Hierarchy\Lottery.wwu" DateLow="1725354916" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Gits\GADEN-Loittery\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1723725622" DateHigh="0"/>
 </ValidationCache>
